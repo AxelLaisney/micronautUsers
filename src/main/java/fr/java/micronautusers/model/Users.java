@@ -5,8 +5,9 @@ import javax.persistence.Id;
 
 import lombok.Data;
 
-@Entity
-@Data
+//class that describe a table in the database
+@Entity //define that it's an entity that describe a table in a database
+@Data //lombok annotion that allow use to not have to write all getter and setter
 public class Users {
     @Id //define that user_id is the primary key
     private int user_id;

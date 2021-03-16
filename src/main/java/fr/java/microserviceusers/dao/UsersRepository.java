@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import fr.java.micronautusers.model.Users;
 
+//Repository for basic CRUD interactions
 public interface UsersRepository{
     
 
